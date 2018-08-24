@@ -20,7 +20,8 @@ class ChangeWords(object):
                               "by default is current path/folder.")
         parser.add_argument(
             '-ft', '--file_type', type=str,
-            default='.py', help="file type you are looking for, eg: '.py', '.txt'")
+            default='.py', help="file type you are looking for, eg: '.py', '.txt'"
+                                "by default is '.py' (python files)")
         parser.add_argument(
             '-fs', '--from_string',
             default=None, help="the string to change/replace")
