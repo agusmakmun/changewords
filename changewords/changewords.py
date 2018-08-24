@@ -13,7 +13,7 @@ class ChangeWords(object):
         """ return parsed args """
         parser = argparse.ArgumentParser(
             formatter_class=argparse.RawTextHelpFormatter,
-            description="Python tool to change or replace the strings in files.")
+            description="Python tool to change or replace the text string in the files.")
         parser.add_argument(
             '-p', '--path', type=str,
             default='.', help="the file type you are looking for. eg: '.py', '.txt'\n"
@@ -31,7 +31,7 @@ class ChangeWords(object):
 
     def change_words(self, search_path, file_type, from_str, to_str):
         """
-        function to change or replace the strings in files.
+        function to change or replace the text string in files.
         this function also implemented the recursive folders.
 
         :param `search_path` (String) => is current folder or parent folder for files.

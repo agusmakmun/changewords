@@ -7,11 +7,11 @@ from setuptools import setup
 setup(
     name="changewords",
     packages=['changewords'],
-    version="1.0.1",
+    version="1.0.2",
     platforms=['Linux'],
     url='https://github.com/agusmakmun/changewords/',
     download_url='https://github.com/agusmakmun/changewords/tarball/v1.0.0',
-    description="Python tool to change or replace the strings in files.",
+    description="Python tool to change or replace the text string in the files.",
     long_description=open("README.rst").read(),
     license='MIT',
     author='Agus Makmun (Summon Agus)',
