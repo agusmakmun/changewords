@@ -78,4 +78,5 @@ if __name__ == '__main__':
         parser.print_help(sys.stderr)
         sys.exit(1)
 
-    change.change_words(args.path, args.file_type, args.from_string, args.to_string)
+    change.change_words(args.path, args.file_type,
+                        args.from_string, args.to_string)

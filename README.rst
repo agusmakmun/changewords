@@ -5,7 +5,7 @@ changewords
 |pypi version| |build status|
 
 Simply python tool to change or replace the strings in files.
-This tool pretty nice for programmer if somehow they want to replace their codes,
+This tool pretty nice for programmers if somehow they want to replace/change their codes for any files,
 eg: ``function``, ``class``, ``variable``, etc for recursive files or not.
 
 
