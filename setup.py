@@ -7,7 +7,7 @@ from setuptools import setup
 setup(
     name="changewords",
     packages=['changewords'],
-    version="1.0.0",
+    version="1.0.1",
     platforms=['Linux'],
     url='https://github.com/agusmakmun/changewords/',
     download_url='https://github.com/agusmakmun/changewords/tarball/v1.0.0',

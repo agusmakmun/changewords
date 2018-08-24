@@ -69,7 +69,7 @@ class ChangeWords(object):
         return True
 
 
-if __name__ == '__main__':
+def main():
     change = ChangeWords()
     parser = change.create_parser()
     args = parser.parse_args()
@@ -80,3 +80,6 @@ if __name__ == '__main__':
 
     change.change_words(args.path, args.file_type,
                         args.from_string, args.to_string)
+
+if __name__ == '__main__':
+    main()
