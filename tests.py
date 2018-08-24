@@ -3,7 +3,7 @@
 
 import os
 import unittest
-from changewords.change_words import ChangeWords
+from changewords.changewords import ChangeWords
 
 
 class ChangeWordsTestCase(unittest.TestCase):
