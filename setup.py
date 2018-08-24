@@ -4,18 +4,22 @@
 import os
 from setuptools import setup
 
+__version__ = '1.0.2'
+__author__ = 'Agus Makmun (Summon Agus)'
+__author_email__ = 'summon.agus@gmail.com'
+
 setup(
     name="changewords",
     packages=['changewords'],
-    version="1.0.2",
+    version=__version__,
     platforms=['Linux'],
     url='https://github.com/agusmakmun/changewords/',
-    download_url='https://github.com/agusmakmun/changewords/tarball/v1.0.0',
+    download_url='https://github.com/agusmakmun/changewords/tarball/v%s' % __version__,
     description="Python tool to change or replace the text string in the files.",
     long_description=open("README.rst").read(),
     license='MIT',
-    author='Agus Makmun (Summon Agus)',
-    author_email='summon.agus@gmail.com',
+    author=__author__,
+    author_email=__author_email__,
     keywords=['change words', 'word replacer', 'python tool'],
     entry_points={
         'console_scripts': ['changewords=changewords.changewords:main', ],
