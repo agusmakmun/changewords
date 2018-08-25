@@ -16,11 +16,11 @@ class ChangeWords(object):
             description="Python tool to change or replace the text string in the files.")
         parser.add_argument(
             '-p', '--path', type=str,
-            default='.', help="the file type you are looking for. eg: '.py', '.txt'\n"
+            default='.', help="the starting path or parent path name\n"
                               "by default is current path/folder.")
         parser.add_argument(
             '-ft', '--file_type', type=str,
-            default='.py', help="file type you are looking for, eg: '.py', '.txt'"
+            default='.py', help="file type you are looking for, eg: '.py', '.txt'\n"
                                 "by default is '.py' (python files)")
         parser.add_argument(
             '-fs', '--from_string',

@@ -7,7 +7,7 @@ from changewords.changewords import ChangeWords
 
 
 class ChangeWordsTestCase(unittest.TestCase):
-    """Tests for `changewords/change_words.py`."""
+    """Tests for `changewords/changewords.py`."""
 
     def setUp(self):
         change = ChangeWords()

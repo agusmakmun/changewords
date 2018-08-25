@@ -31,10 +31,11 @@ Usage
 
     optional arguments:
       -h, --help            show this help message and exit
-      -p PATH, --path PATH  the file type you are looking for. eg: '.py', '.txt'
+      -p PATH, --path PATH  the starting path or parent path name
                             by default is current path/folder.
       -ft FILE_TYPE, --file_type FILE_TYPE
                             file type you are looking for, eg: '.py', '.txt'
+                            by default is '.py' (python files)
       -fs FROM_STRING, --from_string FROM_STRING
                             the string to change/replace
       -ts TO_STRING, --to_string TO_STRING
